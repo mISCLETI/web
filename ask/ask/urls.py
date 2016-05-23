@@ -1,4 +1,5 @@
 from django.conf.urls import patterns, include, url
+from django.contrib import admin
 
 urlpatterns = (
       url(r'^$', 'qa.views.test', name='home'),
