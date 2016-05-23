@@ -1,0 +1,60 @@
+2016-05-23 08:56:02 [995] [INFO] Starting gunicorn 17.5
+2016-05-23 08:56:02 [995] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 08:56:02 [995] [ERROR] Retrying in 1 second.
+2016-05-23 08:56:03 [995] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 08:56:03 [995] [ERROR] Retrying in 1 second.
+2016-05-23 08:56:04 [995] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 08:56:04 [995] [ERROR] Retrying in 1 second.
+2016-05-23 08:56:05 [995] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 08:56:05 [995] [ERROR] Retrying in 1 second.
+2016-05-23 08:56:06 [995] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 08:56:06 [995] [ERROR] Retrying in 1 second.
+2016-05-23 08:56:07 [995] [ERROR] Can't connect to ('0.0.0.0', 8000)
+2016-05-23 09:03:06 [1152] [INFO] Starting gunicorn 17.5
+2016-05-23 09:03:06 [1152] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:06 [1152] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:07 [1152] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:07 [1152] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:08 [1152] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:08 [1152] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:09 [1152] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:09 [1152] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:10 [1152] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:10 [1152] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:11 [1152] [ERROR] Can't connect to ('0.0.0.0', 8000)
+2016-05-23 09:03:19 [1303] [INFO] Starting gunicorn 17.5
+2016-05-23 09:03:19 [1303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:19 [1303] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:20 [1303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:20 [1303] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:21 [1303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:21 [1303] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:22 [1303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:22 [1303] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:23 [1303] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:03:23 [1303] [ERROR] Retrying in 1 second.
+2016-05-23 09:03:24 [1303] [ERROR] Can't connect to ('0.0.0.0', 8000)
+2016-05-23 09:06:07 [1456] [INFO] Starting gunicorn 17.5
+2016-05-23 09:06:07 [1456] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:06:07 [1456] [ERROR] Retrying in 1 second.
+2016-05-23 09:06:08 [1456] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:06:08 [1456] [ERROR] Retrying in 1 second.
+2016-05-23 09:06:09 [1456] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:06:09 [1456] [ERROR] Retrying in 1 second.
+2016-05-23 09:06:10 [1456] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:06:10 [1456] [ERROR] Retrying in 1 second.
+2016-05-23 09:06:11 [1456] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:06:11 [1456] [ERROR] Retrying in 1 second.
+2016-05-23 09:06:12 [1456] [ERROR] Can't connect to ('0.0.0.0', 8000)
+2016-05-23 09:07:22 [1609] [INFO] Starting gunicorn 17.5
+2016-05-23 09:07:22 [1609] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:07:22 [1609] [ERROR] Retrying in 1 second.
+2016-05-23 09:07:23 [1609] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:07:23 [1609] [ERROR] Retrying in 1 second.
+2016-05-23 09:07:24 [1609] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:07:24 [1609] [ERROR] Retrying in 1 second.
+2016-05-23 09:07:25 [1609] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:07:25 [1609] [ERROR] Retrying in 1 second.
+2016-05-23 09:07:26 [1609] [ERROR] Connection in use: ('0.0.0.0', 8000)
+2016-05-23 09:07:26 [1609] [ERROR] Retrying in 1 second.
+2016-05-23 09:07:27 [1609] [ERROR] Can't connect to ('0.0.0.0', 8000)

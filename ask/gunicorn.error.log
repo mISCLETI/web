@@ -1,0 +1,223 @@
+2016-05-23 08:52:46 [800] [INFO] Starting gunicorn 17.5
+2016-05-23 08:52:46 [800] [INFO] Listening at: http://0.0.0.0:8000 (800)
+2016-05-23 08:52:46 [800] [INFO] Using worker: sync
+2016-05-23 08:52:46 [807] [INFO] Booting worker with pid: 807
+2016-05-23 08:52:46 [812] [INFO] Booting worker with pid: 812
+2016-05-23 08:52:46 [813] [INFO] Booting worker with pid: 813
+2016-05-23 08:52:46 [814] [INFO] Booting worker with pid: 814
+2016-05-23 08:52:46 [815] [INFO] Booting worker with pid: 815
+2016-05-23 08:52:46 [816] [INFO] Booting worker with pid: 816
+2016-05-23 08:52:46 [817] [INFO] Booting worker with pid: 817
+2016-05-23 08:52:46 [818] [INFO] Booting worker with pid: 818
+2016-05-23 08:52:46 [819] [INFO] Booting worker with pid: 819
+2016-05-23 08:52:46 [820] [INFO] Booting worker with pid: 820
+2016-05-23 08:52:46 [821] [INFO] Booting worker with pid: 821
+2016-05-23 08:52:46 [822] [INFO] Booting worker with pid: 822
+2016-05-23 08:52:46 [823] [INFO] Booting worker with pid: 823
+2016-05-23 08:52:46 [824] [INFO] Booting worker with pid: 824
+2016-05-23 08:52:46 [825] [INFO] Booting worker with pid: 825
+2016-05-23 08:52:46 [826] [INFO] Booting worker with pid: 826
+2016-05-23 08:52:53 [826] [ERROR] Error processing request.
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 88, in handle
+    self.handle_request(listener, req, client, addr)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/workers/sync.py", line 133, in handle_request
+    resp.close()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/http/wsgi.py", line 357, in close
+    util.write_chunk(self.sock, b"")
+  File "/usr/lib/python2.7/dist-packages/gunicorn/util.py", line 300, in write_chunk
+    sock.sendall(chunk)
+  File "/usr/lib/python2.7/socket.py", line 224, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 104] Connection reset by peer
+2016-05-23 08:56:02 [800] [INFO] Handling signal: term
+2016-05-23 08:56:02 [807] [INFO] Worker exiting (pid: 807)
+2016-05-23 08:56:02 [824] [INFO] Worker exiting (pid: 824)
+2016-05-23 08:56:02 [826] [INFO] Worker exiting (pid: 826)
+2016-05-23 08:56:02 [823] [INFO] Worker exiting (pid: 823)
+2016-05-23 08:56:02 [822] [INFO] Worker exiting (pid: 822)
+2016-05-23 08:56:02 [825] [INFO] Worker exiting (pid: 825)
+2016-05-23 08:56:02 [812] [INFO] Worker exiting (pid: 812)
+2016-05-23 08:56:02 [821] [INFO] Worker exiting (pid: 821)
+2016-05-23 08:56:02 [813] [INFO] Worker exiting (pid: 813)
+2016-05-23 08:56:02 [814] [INFO] Worker exiting (pid: 814)
+2016-05-23 08:56:02 [818] [INFO] Worker exiting (pid: 818)
+2016-05-23 08:56:02 [816] [INFO] Worker exiting (pid: 816)
+2016-05-23 08:56:02 [815] [INFO] Worker exiting (pid: 815)
+2016-05-23 08:56:02 [817] [INFO] Worker exiting (pid: 817)
+2016-05-23 08:56:02 [819] [INFO] Worker exiting (pid: 819)
+2016-05-23 08:56:02 [820] [INFO] Worker exiting (pid: 820)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception KeyError: KeyError(140072964040512,) in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2016-05-23 08:56:02 [800] [INFO] Shutting down: Master
+2016-05-23 08:56:02 [993] [INFO] Starting gunicorn 17.5
+2016-05-23 08:56:02 [993] [INFO] Listening at: http://0.0.0.0:8000 (993)
+2016-05-23 08:56:02 [993] [INFO] Using worker: sync
+2016-05-23 08:56:02 [1000] [INFO] Booting worker with pid: 1000
+2016-05-23 08:56:02 [1001] [INFO] Booting worker with pid: 1001
+2016-05-23 08:56:02 [1002] [INFO] Booting worker with pid: 1002
+2016-05-23 08:56:02 [1005] [INFO] Booting worker with pid: 1005
+2016-05-23 08:56:03 [1008] [INFO] Booting worker with pid: 1008
+2016-05-23 08:56:03 [1009] [INFO] Booting worker with pid: 1009
+2016-05-23 08:56:03 [1010] [INFO] Booting worker with pid: 1010
+2016-05-23 08:56:03 [1011] [INFO] Booting worker with pid: 1011
+2016-05-23 08:56:03 [1012] [INFO] Booting worker with pid: 1012
+2016-05-23 08:56:03 [1013] [INFO] Booting worker with pid: 1013
+2016-05-23 08:56:03 [1014] [INFO] Booting worker with pid: 1014
+2016-05-23 08:56:03 [1015] [INFO] Booting worker with pid: 1015
+2016-05-23 08:56:03 [1016] [INFO] Booting worker with pid: 1016
+2016-05-23 08:56:03 [1017] [INFO] Booting worker with pid: 1017
+2016-05-23 08:56:03 [1018] [INFO] Booting worker with pid: 1018
+2016-05-23 08:56:03 [1019] [INFO] Booting worker with pid: 1019
+2016-05-23 09:03:06 [993] [INFO] Handling signal: term
+2016-05-23 09:03:06 [1001] [INFO] Worker exiting (pid: 1001)
+2016-05-23 09:03:06 [1002] [INFO] Worker exiting (pid: 1002)
+2016-05-23 09:03:06 [1000] [INFO] Worker exiting (pid: 1000)
+2016-05-23 09:03:06 [1009] [INFO] Worker exiting (pid: 1009)
+2016-05-23 09:03:06 [1013] [INFO] Worker exiting (pid: 1013)
+2016-05-23 09:03:06 [1008] [INFO] Worker exiting (pid: 1008)
+2016-05-23 09:03:06 [1014] [INFO] Worker exiting (pid: 1014)
+2016-05-23 09:03:06 [1012] [INFO] Worker exiting (pid: 1012)
+2016-05-23 09:03:06 [1015] [INFO] Worker exiting (pid: 1015)
+2016-05-23 09:03:06 [1011] [INFO] Worker exiting (pid: 1011)
+2016-05-23 09:03:06 [1019] [INFO] Worker exiting (pid: 1019)
+2016-05-23 09:03:06 [1016] [INFO] Worker exiting (pid: 1016)
+2016-05-23 09:03:06 [1010] [INFO] Worker exiting (pid: 1010)
+2016-05-23 09:03:06 [1017] [INFO] Worker exiting (pid: 1017)
+2016-05-23 09:03:06 [1005] [INFO] Worker exiting (pid: 1005)
+2016-05-23 09:03:06 [1018] [INFO] Worker exiting (pid: 1018)
+2016-05-23 09:03:06 [993] [INFO] Shutting down: Master
+2016-05-23 09:03:06 [1150] [INFO] Starting gunicorn 17.5
+2016-05-23 09:03:06 [1150] [INFO] Listening at: http://0.0.0.0:8000 (1150)
+2016-05-23 09:03:06 [1150] [INFO] Using worker: sync
+2016-05-23 09:03:06 [1157] [INFO] Booting worker with pid: 1157
+2016-05-23 09:03:06 [1158] [INFO] Booting worker with pid: 1158
+2016-05-23 09:03:06 [1163] [INFO] Booting worker with pid: 1163
+2016-05-23 09:03:06 [1164] [INFO] Booting worker with pid: 1164
+2016-05-23 09:03:06 [1165] [INFO] Booting worker with pid: 1165
+2016-05-23 09:03:06 [1166] [INFO] Booting worker with pid: 1166
+2016-05-23 09:03:06 [1167] [INFO] Booting worker with pid: 1167
+2016-05-23 09:03:06 [1168] [INFO] Booting worker with pid: 1168
+2016-05-23 09:03:06 [1169] [INFO] Booting worker with pid: 1169
+2016-05-23 09:03:06 [1170] [INFO] Booting worker with pid: 1170
+2016-05-23 09:03:06 [1171] [INFO] Booting worker with pid: 1171
+2016-05-23 09:03:06 [1172] [INFO] Booting worker with pid: 1172
+2016-05-23 09:03:07 [1173] [INFO] Booting worker with pid: 1173
+2016-05-23 09:03:07 [1174] [INFO] Booting worker with pid: 1174
+2016-05-23 09:03:07 [1175] [INFO] Booting worker with pid: 1175
+2016-05-23 09:03:07 [1176] [INFO] Booting worker with pid: 1176
+2016-05-23 09:03:18 [1150] [INFO] Handling signal: term
+2016-05-23 09:03:18 [1157] [INFO] Worker exiting (pid: 1157)
+2016-05-23 09:03:18 [1165] [INFO] Worker exiting (pid: 1165)
+2016-05-23 09:03:18 [1158] [INFO] Worker exiting (pid: 1158)
+2016-05-23 09:03:18 [1163] [INFO] Worker exiting (pid: 1163)
+2016-05-23 09:03:18 [1164] [INFO] Worker exiting (pid: 1164)
+2016-05-23 09:03:18 [1166] [INFO] Worker exiting (pid: 1166)
+2016-05-23 09:03:18 [1167] [INFO] Worker exiting (pid: 1167)
+2016-05-23 09:03:18 [1176] [INFO] Worker exiting (pid: 1176)
+2016-05-23 09:03:18 [1175] [INFO] Worker exiting (pid: 1175)
+2016-05-23 09:03:18 [1174] [INFO] Worker exiting (pid: 1174)
+2016-05-23 09:03:18 [1173] [INFO] Worker exiting (pid: 1173)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+2016-05-23 09:03:18 [1168] [INFO] Worker exiting (pid: 1168)
+2016-05-23 09:03:18 [1169] [INFO] Worker exiting (pid: 1169)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2016-05-23 09:03:18 [1170] [INFO] Worker exiting (pid: 1170)
+2016-05-23 09:03:18 [1150] [INFO] Shutting down: Master
+2016-05-23 09:03:18 [1301] [INFO] Starting gunicorn 17.5
+2016-05-23 09:03:18 [1301] [INFO] Listening at: http://0.0.0.0:8000 (1301)
+2016-05-23 09:03:18 [1301] [INFO] Using worker: sync
+2016-05-23 09:03:18 [1308] [INFO] Booting worker with pid: 1308
+2016-05-23 09:03:18 [1309] [INFO] Booting worker with pid: 1309
+2016-05-23 09:03:19 [1310] [INFO] Booting worker with pid: 1310
+2016-05-23 09:03:19 [1315] [INFO] Booting worker with pid: 1315
+2016-05-23 09:03:19 [1316] [INFO] Booting worker with pid: 1316
+2016-05-23 09:03:19 [1317] [INFO] Booting worker with pid: 1317
+2016-05-23 09:03:19 [1318] [INFO] Booting worker with pid: 1318
+2016-05-23 09:03:19 [1319] [INFO] Booting worker with pid: 1319
+2016-05-23 09:03:19 [1320] [INFO] Booting worker with pid: 1320
+2016-05-23 09:03:19 [1321] [INFO] Booting worker with pid: 1321
+2016-05-23 09:03:19 [1322] [INFO] Booting worker with pid: 1322
+2016-05-23 09:03:19 [1323] [INFO] Booting worker with pid: 1323
+2016-05-23 09:03:19 [1324] [INFO] Booting worker with pid: 1324
+2016-05-23 09:03:19 [1325] [INFO] Booting worker with pid: 1325
+2016-05-23 09:03:19 [1326] [INFO] Booting worker with pid: 1326
+2016-05-23 09:03:19 [1327] [INFO] Booting worker with pid: 1327
+2016-05-23 09:06:06 [1301] [INFO] Handling signal: term
+2016-05-23 09:06:06 [1309] [INFO] Worker exiting (pid: 1309)
+2016-05-23 09:06:06 [1308] [INFO] Worker exiting (pid: 1308)
+2016-05-23 09:06:06 [1327] [INFO] Worker exiting (pid: 1327)
+2016-05-23 09:06:06 [1310] [INFO] Worker exiting (pid: 1310)
+2016-05-23 09:06:06 [1324] [INFO] Worker exiting (pid: 1324)
+2016-05-23 09:06:06 [1319] [INFO] Worker exiting (pid: 1319)
+2016-05-23 09:06:06 [1326] [INFO] Worker exiting (pid: 1326)
+2016-05-23 09:06:06 [1321] [INFO] Worker exiting (pid: 1321)
+2016-05-23 09:06:06 [1320] [INFO] Worker exiting (pid: 1320)
+2016-05-23 09:06:06 [1315] [INFO] Worker exiting (pid: 1315)
+2016-05-23 09:06:06 [1323] [INFO] Worker exiting (pid: 1323)
+2016-05-23 09:06:06 [1317] [INFO] Worker exiting (pid: 1317)
+2016-05-23 09:06:06 [1318] [INFO] Worker exiting (pid: 1318)
+2016-05-23 09:06:06 [1322] [INFO] Worker exiting (pid: 1322)
+2016-05-23 09:06:06 [1316] [INFO] Worker exiting (pid: 1316)
+2016-05-23 09:06:06 [1325] [INFO] Worker exiting (pid: 1325)
+2016-05-23 09:06:06 [1301] [INFO] Shutting down: Master
+2016-05-23 09:06:06 [1454] [INFO] Starting gunicorn 17.5
+2016-05-23 09:06:06 [1454] [INFO] Listening at: http://0.0.0.0:8000 (1454)
+2016-05-23 09:06:06 [1454] [INFO] Using worker: sync
+2016-05-23 09:06:06 [1461] [INFO] Booting worker with pid: 1461
+2016-05-23 09:06:07 [1462] [INFO] Booting worker with pid: 1462
+2016-05-23 09:06:07 [1465] [INFO] Booting worker with pid: 1465
+2016-05-23 09:06:07 [1468] [INFO] Booting worker with pid: 1468
+2016-05-23 09:06:07 [1469] [INFO] Booting worker with pid: 1469
+2016-05-23 09:06:07 [1470] [INFO] Booting worker with pid: 1470
+2016-05-23 09:06:07 [1471] [INFO] Booting worker with pid: 1471
+2016-05-23 09:06:07 [1472] [INFO] Booting worker with pid: 1472
+2016-05-23 09:06:07 [1473] [INFO] Booting worker with pid: 1473
+2016-05-23 09:06:07 [1474] [INFO] Booting worker with pid: 1474
+2016-05-23 09:06:07 [1475] [INFO] Booting worker with pid: 1475
+2016-05-23 09:06:07 [1476] [INFO] Booting worker with pid: 1476
+2016-05-23 09:06:07 [1477] [INFO] Booting worker with pid: 1477
+2016-05-23 09:06:07 [1478] [INFO] Booting worker with pid: 1478
+2016-05-23 09:06:07 [1479] [INFO] Booting worker with pid: 1479
+2016-05-23 09:06:07 [1480] [INFO] Booting worker with pid: 1480
+2016-05-23 09:07:22 [1454] [INFO] Handling signal: term
+2016-05-23 09:07:22 [1480] [INFO] Worker exiting (pid: 1480)
+2016-05-23 09:07:22 [1471] [INFO] Worker exiting (pid: 1471)
+2016-05-23 09:07:22 [1472] [INFO] Worker exiting (pid: 1472)
+2016-05-23 09:07:22 [1470] [INFO] Worker exiting (pid: 1470)
+2016-05-23 09:07:22 [1469] [INFO] Worker exiting (pid: 1469)
+2016-05-23 09:07:22 [1465] [INFO] Worker exiting (pid: 1465)
+2016-05-23 09:07:22 [1462] [INFO] Worker exiting (pid: 1462)
+2016-05-23 09:07:22 [1461] [INFO] Worker exiting (pid: 1461)
+2016-05-23 09:07:22 [1479] [INFO] Worker exiting (pid: 1479)
+2016-05-23 09:07:22 [1473] [INFO] Worker exiting (pid: 1473)
+2016-05-23 09:07:22 [1476] [INFO] Worker exiting (pid: 1476)
+2016-05-23 09:07:22 [1475] [INFO] Worker exiting (pid: 1475)
+2016-05-23 09:07:22 [1454] [INFO] Shutting down: Master
+2016-05-23 09:07:22 [1607] [INFO] Starting gunicorn 17.5
+2016-05-23 09:07:22 [1607] [INFO] Listening at: http://0.0.0.0:8000 (1607)
+2016-05-23 09:07:22 [1607] [INFO] Using worker: sync
+2016-05-23 09:07:22 [1614] [INFO] Booting worker with pid: 1614
+2016-05-23 09:07:22 [1615] [INFO] Booting worker with pid: 1615
+2016-05-23 09:07:22 [1620] [INFO] Booting worker with pid: 1620
+2016-05-23 09:07:22 [1621] [INFO] Booting worker with pid: 1621
+2016-05-23 09:07:22 [1622] [INFO] Booting worker with pid: 1622
+2016-05-23 09:07:22 [1623] [INFO] Booting worker with pid: 1623
+2016-05-23 09:07:22 [1624] [INFO] Booting worker with pid: 1624
+2016-05-23 09:07:22 [1625] [INFO] Booting worker with pid: 1625
+2016-05-23 09:07:22 [1626] [INFO] Booting worker with pid: 1626
+2016-05-23 09:07:22 [1627] [INFO] Booting worker with pid: 1627
+2016-05-23 09:07:22 [1628] [INFO] Booting worker with pid: 1628
+2016-05-23 09:07:22 [1629] [INFO] Booting worker with pid: 1629
+2016-05-23 09:07:23 [1630] [INFO] Booting worker with pid: 1630
+2016-05-23 09:07:23 [1631] [INFO] Booting worker with pid: 1631
+2016-05-23 09:07:23 [1632] [INFO] Booting worker with pid: 1632
+2016-05-23 09:07:23 [1633] [INFO] Booting worker with pid: 1633
