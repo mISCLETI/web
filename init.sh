@@ -7,4 +7,5 @@ sudo rm /etc/gunicorn.d/test
 sudo rm /etc/gunicorn.d/hello.py
 sudo ln -s /home/box/web/etc/hello.py /etc/gunicorn.d/hello.py
 sudo cp /home/box/web/etc/hello.py /usr/local/lib/python2.7/hello.py
+sudo cp /home/box/web/etc/hello.py /usr/lib/python2.7/dist-packages/gunicorn/hello.py
 sudo /etc/init.d/gunicorn restart
